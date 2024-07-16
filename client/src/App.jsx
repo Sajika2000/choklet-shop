@@ -6,10 +6,13 @@ import Contact from "./pages/Contact"
 import Signin from "./pages/Signin"
 import Signup from "./pages/Signup"
 import Profile from "./pages/Profile"
+import Hedader from "./components/Hedader"
 
 const App = () => {
   return (
     <BrowserRouter>
+   {/*  header */}
+   <Hedader/>
       <Routes>
         <Route path="/" element= {<Home/>}/>
         <Route path="/about" element= {<About/>}/>
