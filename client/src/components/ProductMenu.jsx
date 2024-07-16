@@ -10,9 +10,9 @@ const ProductMenu = () => {
 
   const scroll = (direction) => {
     if (direction === 'left') {
-      scrollRef.current.scrollLeft -= 300; // Adjust this value based on the width of the items
+      scrollRef.current.scrollLeft -= 300; 
     } else {
-      scrollRef.current.scrollLeft += 300; // Adjust this value based on the width of the items
+      scrollRef.current.scrollLeft += 300; 
     }
   };
 
@@ -22,12 +22,12 @@ const ProductMenu = () => {
       <h1 className="text-[#ff6b00] text-[75px] font-bold mb-6 text-center">Our Best Product</h1>
       <div className="relative flex items-center justify-center">
         <FaArrowLeft 
-          className="absolute left-2 text-white cursor-pointer z-10" 
+          className="absolute z-10 text-white cursor-pointer left-2" 
           onClick={() => scroll('left')} 
           size={30} 
         />
         <div 
-          className="flex overflow-x-scroll scrollbar-hide gap-8" 
+          className="flex gap-8 overflow-x-scroll scrollbar-hide" 
           ref={scrollRef}
           style={{ maxWidth: '900px' }} 
         >
@@ -43,7 +43,7 @@ const ProductMenu = () => {
           </div>
         </div>
         <FaArrowRight 
-          className="absolute right-2 text-white cursor-pointer z-10" 
+          className="absolute z-10 text-white cursor-pointer right-2" 
           onClick={() => scroll('right')} 
           size={30} 
         />
