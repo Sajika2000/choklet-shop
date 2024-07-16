@@ -8,7 +8,7 @@ const Story = () => {
         <h1 className="text-[#ff6b00] text-[75px] font-bold mb-6">Our Story</h1>
         <div className="flex justify-between mx-0 my-[2%] items-center">
           <div className="w-[35%] text-left">
-            <h1 className="text-[28px] font-semibold mb-4">Chocolate with the Story</h1>
+            <h1 className="text-[28px] font-semibold mb-4 text-lg">Chocolate with the Story</h1>
             <p className="text-[14px] text-[#9c8c7a] leading-[1.6] mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio perspiciatis nobis quas eveniet iure deleniti nostrum totam? Maiores dolores fugit odit, esse praesentium blanditiis beatae maxime deserunt doloremque adipisci voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate excepturi tempora quod provident, facere, repellendus delectus facilis pariatur unde magnam dignissimos error similique, adipisci amet temporibus commodi laborum accusamus repudiandae.</p>
             <button className="bg-[chocolate] text-white text-lg cursor-pointer px-[39px] py-3 border-none hover:bg-[#9c8c7a] hover:text-black tracking-[1px] mt-[2%] rounded-[20px] transition duration-300">History</button>
           </div>
