@@ -5,7 +5,7 @@ const Hedader = () => {
     <div className="bg-gradient-to-r from-backgroundColor to-brightColor   @apply font-extralight z-10 ">
         <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
             <Link to='/'>
-            <h1 className="font-bold text-white text-xl ">Chok House</h1>
+            <h1 className="font-bold text-white text-xl ">Choc House</h1>
             </Link>
                
 
