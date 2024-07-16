@@ -1,9 +1,12 @@
+import Hero from "../components/Hero"
+import Story from "../components/Story"
 
 
 const Home = () => {
   return (
     <div>
-      home
+      <Hero/>
+      <Story/>
     </div>
   )
 }
